@@ -77,6 +77,7 @@ def opcion_4():
     for o in range(len(informacion)):
         print("empleado numero ",o+1)
         print(informacion[o])
+        time.sleep(1)
         
 
     with open("reportedesueldo.csv","x",newline="") as archivo:
